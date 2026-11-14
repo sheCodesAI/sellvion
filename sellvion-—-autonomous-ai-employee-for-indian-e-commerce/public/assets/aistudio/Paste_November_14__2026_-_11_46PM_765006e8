@@ -1,0 +1,1242 @@
+# SELLVION — MASTER FULL-STACK PRODUCT DEVELOPMENT PROMPT
+
+## ROLE
+
+Act as a Principal Software Architect, Senior Full-Stack Engineer, AI Agent Engineer, Product Designer, Database Architect, Security Engineer and DevOps Engineer.
+
+Your responsibility is to transform my EXISTING SELLVION project into a complete, polished, dynamic, production-ready autonomous AI business platform.
+
+This is an existing project. Do not create an unrelated application, replace it with a generic SaaS template, or discard existing functionality.
+
+First inspect the entire existing codebase, current UI, routes, components, APIs, database schema, integrations, and implemented workflows. Understand what already works, what is partially implemented and what is only a visual simulation.
+
+Then improve the existing application systematically.
+
+**Do not stop at recommendations, architecture diagrams, mockups or a frontend prototype. Implement the actual working application.**
+
+---
+
+# 1. PRODUCT IDENTITY
+
+Product: SELLVION
+
+Category: Autonomous AI Teammate for Business Growth
+
+Tagline: Beyond Responses. Into Real-World Actions.
+
+Core positioning:
+
+SELLVION is an autonomous AI teammate that understands customer behaviour, identifies business opportunities, makes intelligent decisions, coordinates specialised AI agents and executes authorised business workflows to improve sales and customer retention.
+
+Target users:
+- Kirana stores
+- Retail stores
+- Small and medium-sized businesses
+- D2C brands
+- E-commerce sellers
+
+### Core problem
+
+Small businesses have customer and transaction information scattered across notebooks, spreadsheets, billing systems and disconnected applications.
+
+They struggle to:
+- Identify customers who stopped purchasing.
+- Recognise upcoming reorder opportunities.
+- Track outstanding udhaar.
+- Identify potentially risky COD orders.
+- Follow up with customers at the right time.
+- Understand which actions actually generate repeat sales.
+
+### Our solution
+
+SELLVION transforms business information into customer intelligence, decisions, authorised actions and measurable outcomes.
+
+The product must demonstrate the complete cycle:
+
+UNDERSTAND → DECIDE → ACT → VERIFY → MEASURE
+
+The platform must be positioned as an AI teammate that completes business workflows, not just a chatbot, CRM, analytics dashboard or AI recommendation engine.
+
+---
+
+# 2. MOST IMPORTANT DESIGN REQUIREMENT: REDUCE TEXT
+
+The current website contains too much explanatory text, especially from Feature 01 — COD Return (RTO) Defense onwards.
+
+This must be addressed throughout the entire website.
+
+I want a premium, clean, modern and professional SaaS experience with minimal text and maximum clarity.
+
+### Strict content rules
+
+For every feature section:
+- One short, meaningful heading.
+- One short sentence explaining the benefit.
+- Maximum three or four short supporting points where necessary.
+- One clear action button.
+- Use visual elements instead of paragraphs.
+- Put detailed information inside expandable sections, tooltips or feature-detail pages.
+- Remove repeated explanations.
+- Avoid long introductions and unnecessary technical descriptions.
+
+Prefer short, meaningful language.
+
+Example:
+
+Instead of:
+
+"Real-time risk telemetry analyzes incomplete addresses, pincode carrier failure rates, and order amounts. Automatically converts high-risk cash orders to 1-tap UPI prepayment before courier dispatch."
+
+Use:
+
+Heading: COD RTO Protection
+
+Description: Identify risky orders. Prevent avoidable returns.
+
+Supporting points:
+- Address verification
+- Delivery risk detection
+- Prepaid conversion
+
+Button: Manage COD Orders
+
+This is the desired content style.
+
+Apply this improvement from Feature 01 onwards, including the COD RTO Protection Center and every subsequent feature section.
+
+### Do not remove essential information
+
+Keep important financial information, customer consent, safety warnings, approval conditions and legal disclosures accessible.
+
+The goal is to simplify presentation, not hide important information.
+
+---
+
+# 3. PRESERVE AND IMPROVE THE EXISTING WEBSITE
+
+The existing screen recording shows the following website sections and functionality.
+
+Retain their purpose, improve their design and connect them to real functionality.
+
+### Public website navigation
+
+Preserve and refine:
+- Home
+- Features
+- How It Works
+- Pricing
+- Partners
+- Resources
+- Login
+- Get Started Free
+
+Keep the Paytm hackathon branding already present where appropriate, but do not imply SELLVION is an official Paytm product.
+
+### Existing website sections
+
+1. Hero section.
+2. Customer engagement demonstration.
+3. System architecture — 5 Specialised AI Agents Under 1 Orchestrator.
+4. COD Return (RTO) Defense.
+5. Customer 360.
+6. Udhaar & Credit Collections.
+7. Approval Inbox.
+8. Earned Autonomy Controls.
+9. COD RTO Protection Center.
+10. Connected integrations.
+11. Competitor comparison.
+12. Footer and resources.
+
+Preserve the existing SELLVION brand identity and these core capabilities.
+
+Do not unnecessarily delete existing working features.
+
+---
+
+# 4. PREMIUM UI/UX DESIGN SYSTEM
+
+Create a professional SaaS product comparable in visual quality to modern enterprise software.
+
+### Design direction
+
+- Primary blue: #0066D9
+- Deep navy: #082B66
+- Cyan: #16C7F4
+- White and light-blue backgrounds.
+- Modern typography.
+- Consistent spacing.
+- Professional cards and tables.
+- Refined shadows and borders.
+- Subtle gradients.
+- High-quality icons.
+- Meaningful data visualisations.
+- Smooth, restrained transitions.
+
+The website should look like a professionally designed, established software product.
+
+Avoid:
+- Generic AI robot illustrations.
+- Excessive gradients.
+- Purple-heavy design.
+- Excessive glassmorphism.
+- Oversized decorative elements.
+- Crowded cards.
+- Huge paragraphs.
+- Unnecessary animations.
+- Generic dashboard templates.
+- AI-generated-looking layouts.
+
+Use consistent components across all pages.
+
+Create a reusable design system with:
+- Buttons
+- Cards
+- Tables
+- Modals
+- Drawers
+- Forms
+- Tabs
+- Navigation
+- Status indicators
+- Notifications
+- Charts
+- Empty states
+- Loading states
+
+Ensure excellent desktop, tablet and mobile responsiveness.
+
+---
+
+# 5. DESIGN FOR USERS WITH LIMITED DIGITAL LITERACY
+
+This is a critical product requirement.
+
+Our merchants may have limited technical knowledge, limited English proficiency or limited experience using complex software.
+
+SELLVION must be extremely easy to operate.
+
+### UX principles
+
+1. Use simple, everyday English.
+2. Avoid technical terms on merchant-facing screens.
+3. Use large, clearly labelled buttons.
+4. Use familiar icons with text labels.
+5. Keep one primary action per screen.
+6. Minimise typing and manual data entry.
+7. Use guided onboarding.
+8. Provide clear confirmation messages.
+9. Explain AI recommendations in simple language.
+10. Avoid complex navigation and confusing settings.
+
+### Language support
+
+Design the system to support:
+- English
+- Hindi
+- Telugu
+- Other Indian languages through an extensible translation system.
+
+Allow merchants to change their preferred language.
+
+Customer messages should support simple English and Hinglish, with room for other regional languages.
+
+### Voice interaction
+
+Where practical, add voice-based commands and speech-to-text support.
+
+Examples:
+- "Show pending customer payments."
+- "Send a reminder to customers who haven't purchased recently."
+- "Show today's risky orders."
+
+Always confirm important actions before execution.
+
+Do not force users to understand AI agents, technical settings or complicated workflows.
+
+---
+
+# 6. PUBLIC WEBSITE AND HERO SECTION
+
+Create a premium, conversion-focused landing page.
+
+### Hero
+
+Headline:
+
+"Your Autonomous AI Teammate for Business Growth."
+
+Supporting copy:
+
+"Understand customers. Find opportunities. Take action. Grow your business."
+
+Show:
+- A clear product preview.
+- A concise explanation of SELLVION.
+- Get Started Free.
+- Explore How It Works.
+
+The hero must immediately explain what SELLVION does and who it serves.
+
+### Problem section
+
+Show the main merchant problems visually:
+- Lost customers.
+- Missed repeat purchases.
+- Manual payment follow-ups.
+- Risky COD orders.
+- Disconnected business records.
+
+### Solution section
+
+Show how SELLVION converts business data into intelligent actions.
+
+### AI agent section
+
+Show the Orchestrator and five specialised agents.
+
+### Workflow section
+
+Show:
+
+Business Data → AI Intelligence → Decision → Authorised Action → Outcome.
+
+### Business impact
+
+Show:
+- More repeat purchases.
+- Better customer retention.
+- Faster collections.
+- Lower avoidable COD losses.
+- Less manual work.
+
+### Important
+
+Keep the landing page concise. Detailed functionality belongs inside the actual application, not in long marketing paragraphs.
+
+---
+
+# 7. MERCHANT ONBOARDING AND AUTHENTICATION
+
+Implement a complete onboarding experience.
+
+Features:
+- Sign up.
+- Login.
+- Logout.
+- Password recovery.
+- Email verification where supported.
+- Secure session handling.
+- Protected routes.
+- Business profile.
+- Preferred language.
+- Business category.
+- Currency and timezone.
+- Business settings.
+
+Support business accounts with appropriate roles and permissions.
+
+### Data onboarding
+
+Allow merchants to import:
+- Customer CSV files.
+- Product CSV files.
+- Order records.
+- Payment records.
+- Udhaar records.
+
+Provide:
+- File validation.
+- Column mapping.
+- Preview.
+- Duplicate detection.
+- Import summary.
+- Error reporting.
+- Rollback or safe recovery from failed imports.
+
+Avoid making merchants manually enter large amounts of information.
+
+---
+
+# 8. MAIN MERCHANT DASHBOARD
+
+Build a complete, dynamic dashboard based on actual stored data.
+
+Show key information:
+- Total customers.
+- Active customers.
+- Inactive customers.
+- Reorder opportunities.
+- High-risk COD orders.
+- Outstanding udhaar.
+- Recent AI actions.
+- Pending approvals.
+- Repeat purchase rate.
+- Revenue trends.
+
+### Dashboard interactions
+
+Every metric should be clickable.
+
+Examples:
+- Click inactive customers → open filtered customer records.
+- Click COD risk → open risky orders.
+- Click outstanding udhaar → open collection records.
+- Click pending approvals → open Approval Inbox.
+- Change date range → update the displayed data.
+
+Include:
+- Search.
+- Filters.
+- Date ranges.
+- Sorting.
+- Pagination.
+- Export options.
+- Notifications.
+
+Do not hardcode example metrics as real results.
+
+Clearly label demonstration data.
+
+---
+
+# 9. CUSTOMER 360
+
+Improve the existing Customer 360 feature.
+
+Each customer must have a unified profile containing:
+
+- Customer details.
+- Purchase history.
+- Products purchased.
+- Last purchase date.
+- Purchase frequency.
+- Average order value.
+- Payment history.
+- Outstanding udhaar.
+- COD delivery history.
+- Communication history.
+- Customer preferences.
+- Customer segment.
+- Recommended next action.
+
+### Customer segments
+
+- Loyal customers.
+- Regular customers.
+- Inactive customers.
+- Potential repeat buyers.
+- High-value customers.
+- Customers requiring follow-up.
+
+Provide customer search, filters, sorting and profile drill-down.
+
+Every recommendation must have a clear reason.
+
+---
+
+# 10. COD RTO PROTECTION
+
+Preserve the existing COD RTO Protection Center and improve it substantially.
+
+### Short UI copy
+
+Heading: COD RTO Protection
+
+Description: Identify risky orders. Prevent avoidable returns.
+
+### Core functionality
+
+- COD order monitoring.
+- Risk scoring.
+- Address verification.
+- Delivery history analysis.
+- Pincode-level risk indicators where reliable data is available.
+- Order value analysis.
+- Risk categories.
+- Recommended preventive actions.
+
+### COD dashboard
+
+Show:
+- Store COD baseline RTO.
+- Current measured RTO.
+- Flagged COD orders.
+- Potentially preventable losses.
+- Actual courier costs and outcomes where available.
+
+### Risk details
+
+When a merchant opens an order, show:
+- Customer.
+- Order amount.
+- Delivery details.
+- Risk score.
+- Reasons for the score.
+- Historical evidence.
+- Recommended action.
+
+Possible actions:
+- Verify address.
+- Contact customer.
+- Prepare a prepaid payment request.
+- Escalate for manual review.
+
+### Important
+
+Do not automatically convert an order to prepaid without appropriate customer consent and payment-provider support.
+
+Do not invent risk scores or claim a reduction in RTO without actual evidence.
+
+The existing website includes a ₹280 courier-return headline and an Indian COD benchmark of 20–30% versus 2–3% prepaid.
+
+Treat these as contextual industry estimates, not universal facts or guaranteed merchant outcomes. Provide sources and make the underlying assumptions visible.
+
+Never display simulated savings as actual business savings.
+
+---
+
+# 11. UDHAAR AND CREDIT COLLECTIONS
+
+Improve the existing Udhaar & Credit Collections feature.
+
+### Short UI copy
+
+Heading: Udhaar & Collections
+
+Description: Track pending payments. Follow up at the right time.
+
+Features:
+- Customer-wise outstanding balances.
+- Payment due dates.
+- Overdue payments.
+- Payment history.
+- Collection priorities.
+- Reminder generation.
+- Follow-up status.
+- Collection reports.
+
+Actions:
+- View customer.
+- Prepare reminder.
+- Approve message.
+- Send through a configured provider.
+- Record payment.
+- View history.
+
+Do not initiate financial transactions without authorised integrations and explicit permission.
+
+---
+
+# 12. FIVE SPECIALISED AI AGENTS UNDER ONE ORCHESTRATOR
+
+Preserve the existing five-agent architecture visible on the website.
+
+The existing agent names are:
+
+### 1. Customer Intelligence Agent
+
+Builds customer profiles and customer memory from available orders, history and preferences.
+
+### 2. Behaviour & Prediction Agent
+
+Identifies reorder opportunities, purchase patterns, COD risks and customer inactivity.
+
+### 3. Engagement & Copy Agent
+
+Creates personalised, respectful customer messages in the merchant's preferred language.
+
+### 4. Policy & Safety Guard
+
+Checks consent, opt-out lists, quiet hours, communication frequency and merchant-defined rules.
+
+### 5. Execution & Measurement Agent
+
+Coordinates authorised provider actions, tracks results and measures business outcomes.
+
+### Central Orchestrator
+
+The Orchestrator must:
+- Understand merchant requests.
+- Retrieve relevant customer and business context.
+- Select the appropriate agents.
+- Assign tasks.
+- Coordinate their work.
+- Validate outputs.
+- Apply policy checks.
+- Request approval when needed.
+- Execute permitted actions.
+- Verify execution.
+- Track results.
+- Escalate unresolved tasks to humans.
+
+### Agent Workspace UI
+
+Allow merchants to:
+- View agents.
+- Inspect responsibilities.
+- See active tasks.
+- View execution status.
+- Inspect logs.
+- View failures.
+- Understand why an action was recommended.
+
+Do not display fake accuracy percentages or invented agent success rates.
+
+Only display measured operational statistics where supported by actual logs and evaluation.
+
+---
+
+# 13. END-TO-END WORKFLOW EXECUTION
+
+This is the core of SELLVION.
+
+Do not leave features as disconnected demonstrations.
+
+Build connected workflows.
+
+### Example A — Customer reactivation
+
+1. Customer Intelligence identifies an inactive customer.
+2. Behaviour & Prediction Agent identifies a possible reorder opportunity.
+3. Engagement Agent prepares a personalised message.
+4. Policy & Safety Guard checks the communication rules.
+5. Orchestrator prepares the action.
+6. Merchant approves the message.
+7. Execution Agent sends it through the configured provider.
+8. SELLVION tracks replies and subsequent purchases.
+9. Analytics records the outcome.
+
+### Example B — COD risk prevention
+
+1. New COD order arrives.
+2. Behaviour & Prediction Agent evaluates risk indicators.
+3. Customer Intelligence retrieves relevant history.
+4. Policy & Safety Guard checks permitted actions.
+5. Orchestrator prepares the recommendation.
+6. Merchant reviews the action where required.
+7. The configured provider executes the approved action.
+8. SELLVION records the delivery outcome.
+
+### Example C — Udhaar collection
+
+1. System detects an overdue payment.
+2. Customer Intelligence retrieves customer context.
+3. Engagement Agent prepares a polite reminder.
+4. Policy Guard checks communication rules.
+5. Merchant approves or the permitted automation executes.
+6. Payment status is updated through authorised records.
+7. Collection performance is measured.
+
+### Workflow requirements
+
+Every workflow needs:
+- Persistent state.
+- Task ownership.
+- Execution history.
+- Retry handling.
+- Failure handling.
+- Approval checkpoints.
+- Human escalation.
+- Audit logs.
+- Completion verification.
+
+The AI must not claim a task is complete merely because it generated a response.
+
+---
+
+# 14. APPROVAL INBOX
+
+Preserve and improve the existing Approval Inbox.
+
+Show:
+- Pending approvals.
+- Approved actions.
+- Rejected actions.
+- Executed actions.
+- Failed actions.
+
+Every action should explain:
+- What will happen.
+- Which customer or order is affected.
+- Why the action is recommended.
+- Which agent prepared it.
+- What permissions are required.
+
+Actions:
+- Approve.
+- Reject.
+- Edit.
+- Schedule.
+- Execute where authorised.
+- View details.
+
+Provide confirmation for important actions.
+
+---
+
+# 15. EARNED AUTONOMY CONTROLS
+
+Preserve the existing Earned Autonomy Controls.
+
+Implement three clear levels:
+
+### Level 1 — Suggest
+
+AI recommends actions. Merchant decides.
+
+### Level 2 — Approval-Based
+
+AI prepares actions. Merchant approves before execution.
+
+### Level 3 — Controlled Autonomy
+
+Previously approved, low-risk workflows can execute automatically within merchant-defined limits.
+
+Provide:
+- Workflow-specific permissions.
+- Communication frequency limits.
+- Spending limits where relevant.
+- Quiet hours.
+- Customer opt-out controls.
+- Audit history.
+- Pause automation.
+- Revoke permissions.
+- Manual override.
+
+High-risk, financial or sensitive actions must follow explicit approval policies.
+
+Never enable unrestricted autonomy by default.
+
+---
+
+# 16. INTEGRATIONS
+
+Preserve the existing integration ecosystem shown in the recording.
+
+Existing integrations to support:
+- WhatsApp Cloud API.
+- Shopify.
+- Shiprocket.
+- Razorpay / authorised payment records.
+- Google Gemini.
+
+Build an extensible integration architecture.
+
+### WhatsApp
+
+- Send authorised messages.
+- Receive replies through webhooks.
+- Track message status.
+- Maintain communication history.
+- Respect opt-outs and applicable messaging rules.
+
+### Shopify
+
+- Retrieve authorised customers.
+- Retrieve products.
+- Retrieve orders.
+- Synchronise relevant events.
+
+### Shiprocket
+
+- Retrieve shipment information.
+- Track delivery status.
+- Retrieve supported return information.
+
+### Razorpay
+
+- Retrieve authorised payment status.
+- Reconcile payment events.
+- Track payment records.
+
+Do not assume access to UPI customer identity or bank transaction history without an authorised supported integration.
+
+### Gemini
+
+- Context understanding.
+- Structured generation.
+- Tool calling.
+- Agent reasoning.
+- Personalised message generation.
+
+### Integration requirements
+
+Each integration must support:
+- Secure credentials.
+- OAuth where appropriate.
+- Connection verification.
+- Webhooks.
+- Retry handling.
+- Rate limits.
+- Error reporting.
+- Health status.
+- Disconnect and reconnect.
+
+A green Connected badge must reflect a successfully verified integration.
+
+If credentials are missing, show a clear configuration state.
+
+---
+
+# 17. DYNAMIC UI — STRICT REQUIREMENT
+
+The entire website must be interactive.
+
+Every visible interactive element must perform its intended action.
+
+Do not create decorative or fake buttons.
+
+### Required interactions
+
+- Clicking a customer opens their profile.
+- Clicking an agent opens agent details and activity.
+- Clicking an order opens its complete details.
+- Clicking a metric opens the corresponding filtered records.
+- Clicking Approve updates the action state and triggers the authorised workflow.
+- Clicking Reject records the rejection.
+- Editing a message updates the saved draft.
+- Search returns matching data.
+- Filters change the displayed records.
+- Date selection updates dashboard results.
+- Charts support relevant drill-down interactions.
+- Tabs switch content.
+- Notifications open their related tasks.
+- CSV upload opens a working import flow.
+- Integration cards open configuration and connection testing.
+- Autonomy settings persist.
+- Modals and drawers open and close properly.
+
+### UI feedback
+
+Every action should provide appropriate feedback:
+- Loading.
+- Success.
+- Failure.
+- Confirmation.
+- Empty state.
+- Disabled state.
+- Retry option.
+
+Use subtle, professional animations only where they improve usability.
+
+Do not animate everything unnecessarily.
+
+---
+
+# 18. ANALYTICS AND MEASURABLE OUTCOMES
+
+Build an actual analytics module.
+
+Track:
+- Customer reactivation.
+- Repeat purchases.
+- Reorder conversion.
+- Collections received.
+- COD delivery outcomes.
+- Message delivery.
+- Customer replies.
+- Approved actions.
+- Completed actions.
+- Failed actions.
+- Escalations.
+- Resolution time.
+- Agent execution performance.
+
+Clearly separate:
+- Actual observed outcomes.
+- Estimated opportunities.
+- Predicted outcomes.
+- Experimentally measured incremental impact.
+
+Use a control group when appropriate to estimate whether AI actions improve outcomes.
+
+Do not attribute all revenue to SELLVION without evidence.
+
+---
+
+# 19. TECHNICAL ARCHITECTURE
+
+Inspect the existing stack before changing it.
+
+Preserve working technologies and architecture wherever possible.
+
+Preferred architecture if the current project does not already provide a suitable equivalent:
+
+### Frontend
+- Next.js or existing React application.
+- TypeScript.
+- Tailwind CSS.
+- Reusable component architecture.
+- Responsive UI.
+- Accessible forms and controls.
+- API-driven data.
+
+### Backend
+- Python.
+- FastAPI.
+- REST APIs.
+- Pydantic validation.
+- Modular service architecture.
+- Background workers.
+- Structured logging.
+
+### Agent system
+- LangGraph.
+- LangChain where useful.
+- Gemini API.
+- Structured outputs.
+- Tool calling.
+- Persistent agent state.
+- Human approval checkpoints.
+
+### Database
+Supabase PostgreSQL as the primary transactional database.
+
+### Knowledge graph
+Neo4j AuraDB where it provides real value for customer relationships and connected business intelligence.
+
+PostgreSQL remains the source of truth for transactional data.
+
+### Background processing
+Use Redis and an appropriate worker system where required for:
+- Webhooks.
+- Scheduled tasks.
+- Agent execution.
+- Message processing.
+- Retry queues.
+
+Do not introduce unnecessary technologies simply to make the architecture look impressive.
+
+---
+
+# 20. DATABASE DESIGN
+
+Build a proper relational schema with appropriate relationships.
+
+Include entities for:
+
+- Users.
+- Businesses.
+- Business settings.
+- Roles and permissions.
+- Customers.
+- Customer interactions.
+- Products.
+- Orders.
+- Order items.
+- Payments.
+- Udhaar records.
+- COD risk assessments.
+- Customer segments.
+- Agent tasks.
+- Agent execution logs.
+- Workflow states.
+- Recommended actions.
+- Approvals.
+- Automation rules.
+- Message templates.
+- Message history.
+- Integration accounts.
+- Webhook events.
+- Analytics events.
+- Audit logs.
+
+Use:
+- Primary keys.
+- Foreign keys.
+- Constraints.
+- Indexes.
+- Timestamps.
+- Database migrations.
+- Tenant-level isolation.
+
+Ensure one merchant cannot access another merchant's information.
+
+Do not expose sensitive customer data unnecessarily.
+
+---
+
+# 21. BACKEND API REQUIREMENTS
+
+Implement actual endpoints for:
+
+- Authentication.
+- Business onboarding.
+- Customers.
+- Products.
+- Orders.
+- CSV imports.
+- Customer segmentation.
+- Reorder predictions.
+- COD risk.
+- Udhaar and collections.
+- Agent task creation.
+- Agent execution.
+- Agent status.
+- Workflow management.
+- Action approvals.
+- Message generation.
+- Message delivery status.
+- Automation settings.
+- Integrations.
+- Webhooks.
+- Analytics.
+- Audit history.
+
+Use:
+- Correct HTTP methods.
+- Appropriate status codes.
+- Input validation.
+- Authentication and authorisation.
+- Pagination.
+- Filtering.
+- Sorting.
+- Consistent error responses.
+- API documentation.
+- Rate limiting.
+
+Never expose secret keys in frontend code.
+
+---
+
+# 22. SECURITY AND PRODUCTION READINESS
+
+Implement:
+
+- Secure authentication.
+- Role-based access control.
+- Business-level data isolation.
+- Server-side validation.
+- Secure secret management.
+- Encrypted credentials.
+- Secure file uploads.
+- SQL injection protection.
+- XSS and CSRF protections where applicable.
+- Rate limiting.
+- Audit logging.
+- Database backups.
+- Migration management.
+- Error monitoring.
+- Structured logs.
+- Agent timeouts.
+- Bounded retries.
+- Idempotency.
+- Webhook signature verification.
+- Privacy-aware data handling.
+
+Add automated tests for critical functionality.
+
+Never claim the application is production-ready until these controls have been implemented and verified.
+
+---
+
+# 23. DEMO MODE AND REAL MODE
+
+The current website contains demonstrations and simulated interactions.
+
+Preserve useful demonstrations, but separate them clearly from real functionality.
+
+Implement two clearly identified modes:
+
+### Demo Mode
+
+- Clearly labelled sample data.
+- Simulated messages.
+- Simulated agent workflows.
+- Example customer records.
+- Example COD orders.
+- Example payment records.
+
+### Live Mode
+
+- Authenticated business data.
+- Real connected integrations.
+- Actual agent executions.
+- Verified message status.
+- Actual payment records.
+- Measured business outcomes.
+
+Never mix simulated revenue, delivery outcomes or AI success rates with live business metrics.
+
+Never silently substitute simulated results when an external integration fails.
+
+---
+
+# 24. PERFORMANCE AND QUALITY
+
+Ensure:
+
+- Fast page loading.
+- Optimised queries.
+- Efficient API calls.
+- Caching where appropriate.
+- Pagination for large datasets.
+- Lazy loading.
+- Responsive rendering.
+- Accessible interactions.
+- Consistent error handling.
+
+Add:
+- Unit tests.
+- Integration tests.
+- API tests.
+- End-to-end tests for major merchant workflows.
+
+Test both successful and failed scenarios.
+
+---
+
+# 25. DEPLOYMENT AND DOCUMENTATION
+
+Prepare the application for deployment.
+
+Include:
+- Environment variable documentation.
+- Database setup.
+- Database migrations.
+- API configuration.
+- Integration setup.
+- Gemini API setup.
+- WhatsApp configuration.
+- Webhook setup.
+- Local development instructions.
+- Production deployment instructions.
+- Monitoring and backup guidance.
+
+Use secure deployment practices.
+
+Do not commit credentials or secrets.
+
+---
+
+# 26. IMPLEMENTATION PROCESS — FOLLOW THIS ORDER
+
+Do not immediately replace the entire website.
+
+First perform a complete audit of the existing codebase.
+
+### Step 1 — Audit
+
+Inspect:
+- Project structure.
+- Frontend.
+- Backend.
+- Routes.
+- Existing components.
+- Database.
+- APIs.
+- Authentication.
+- AI agents.
+- Integrations.
+- Existing functionality.
+
+Identify working, incomplete, simulated and broken features.
+
+### Step 2 — Preserve
+
+Keep existing working functionality, product branding and business logic.
+
+Do not unnecessarily rewrite working modules.
+
+### Step 3 — Redesign
+
+Apply the professional design system and simplify all text.
+
+Preserve the existing sections and improve their usability.
+
+### Step 4 — Backend and database
+
+Implement missing APIs, database relationships, authentication and tenant isolation.
+
+### Step 5 — Agent intelligence
+
+Implement the Orchestrator and all five specialised agents.
+
+### Step 6 — Workflow execution
+
+Connect the agents to customer, reorder, COD, collection, engagement and measurement workflows.
+
+### Step 7 — Integrations
+
+Connect external providers securely and verify their actual status.
+
+### Step 8 — Dynamic UI
+
+Ensure every visible interaction works with real application state.
+
+### Step 9 — Security and testing
+
+Run tests, fix bugs and validate critical workflows.
+
+### Step 10 — Deployment readiness
+
+Prepare production configuration and documentation.
+
+Work incrementally. Avoid breaking existing functionality during changes.
+
+---
+
+# 27. FINAL ACCEPTANCE CRITERIA
+
+The application is complete only when:
+
+1. Existing SELLVION sections are preserved and improved.
+2. Website text is concise and understandable.
+3. The merchant interface is easy for non-technical users.
+4. Customer 360 works with real stored records.
+5. COD RTO Protection works with explainable risk logic.
+6. Udhaar tracking and collections work.
+7. The Orchestrator coordinates five specialised agents.
+8. Agent tasks have persistent execution states.
+9. Complete workflows can run from beginning to end.
+10. The Approval Inbox works.
+11. Earned Autonomy Controls persist and enforce permissions.
+12. Integrations are securely connected and verified.
+13. Every interactive element performs a meaningful action.
+14. Dashboard metrics are data-driven.
+15. Actual and simulated data are clearly separated.
+16. Human escalation works.
+17. Security and tenant isolation are implemented.
+18. Core workflows pass automated tests.
+19. The website works on desktop, tablet and mobile.
+20. Deployment and configuration documentation is complete.
+
+---
+
+# 28. NON-NEGOTIABLE RULES
+
+- Do not generate only a frontend.
+- Do not return only a plan.
+- Do not create fake buttons.
+- Do not use hardcoded numbers as real results.
+- Do not claim integrations are live when they are not.
+- Do not invent AI agent success percentages.
+- Do not expose secrets.
+- Do not remove existing functionality without justification.
+- Do not make the interface complicated for merchants.
+- Do not add unnecessary features.
+- Do not use long paragraphs where concise UI copy is sufficient.
+- Do not sacrifice reliability for visual appearance.
+- Do not claim production readiness without verification.
+
+If a feature requires credentials or external services, implement the complete integration structure and clearly identify the configuration needed.
+
+If an existing module is already implemented correctly, preserve it rather than rebuilding it unnecessarily.
+
+If the development environment cannot complete a task in one pass, continue in logical implementation stages. Maintain a checklist of completed, pending and blocked requirements. Never pretend unfinished work is complete.
+
+---
+
+# FINAL PRODUCT VISION
+
+SELLVION must become a professional, reliable and easy-to-use Autonomous AI Teammate platform for Indian businesses.
+
+It must understand business context, identify opportunities, coordinate specialised AI agents, make decisions, take authorised actions, verify completion, escalate when needed and measure actual outcomes.
+
+The merchant should not need to understand AI, agents, APIs or complex software.
+
+The merchant should simply be able to open SELLVION, understand what needs attention and let their AI teammate handle the work within the permissions they have granted.
+
+**SELLVION: Beyond Responses. Into Real-World Actions.**
+
+Begin by auditing the existing project and then implement the complete improvement systematically. Do not stop after the audit.
